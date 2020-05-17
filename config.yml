@@ -3,7 +3,7 @@ title: "FlaskCon"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: ""
+GoogleAnalytics: "UA-166855800-1"
 
 params:
   # Conference info
