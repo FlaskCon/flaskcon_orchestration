@@ -32,7 +32,7 @@ params:
     location: "Location"
     speakers: "Speakers"
     schedule: "Schedule"
-    partners: "Our Organisers"
+    partners: "Organisers"
     reviewers: "Reviewers"
     mpartners: "Our Media Partners"
     sponsors: "Sponsors"
