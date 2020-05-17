@@ -20,9 +20,10 @@ params:
     # - location
     # - speakers
     # - schedule
-    # - reviewers
     - partners
+    - reviewers
     - mpartners
+    - coc
     # - contact
 
   # Titles which you can translate to other languages
@@ -36,6 +37,7 @@ params:
     mpartners: "Our Media Partners"
     sponsors: "Sponsors"
     contact: "Contact"
+    coc: "Code Of Conduct"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -44,10 +46,17 @@ params:
     link: "https://sessionize.com/flaskcon"
 
   # List of Reviewers
-
   Reviewers:
-    - text: ""
-
+    - name: "David"
+      organization: "Pallets"
+    - name: "Adam Englander "
+      organization: "Werkzeug Maintainer"
+    - name: "Grey Li"
+      organization: "Flask Maintainer, PyCon China"
+    - name: "Julien Demoor"
+      organization: "PyMUG"
+    - name: "Miguel Grinberg"
+      organization: "Flask Maintainer, PythonIreland"
 
   # List of Organisers
   Partners:
@@ -87,6 +96,9 @@ params:
       logo: "/img/r_flask.jpg"
       url: "https://www.reddit.com/r/flask/"
 
+  coc:
+    - name: "What up"
+      url: https://ep2020.europython.eu/coc/
 
   # The entire schedule
   Schedule:

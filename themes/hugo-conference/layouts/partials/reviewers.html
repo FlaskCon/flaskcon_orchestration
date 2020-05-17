@@ -1,0 +1,9 @@
+<h2 class="section-title" style="text-decoration: underline ;">{{ .titles.reviewers }}</h2>
+
+<ul class="partners-list" >
+    <li class="partner-item" itemscope itemtype="http://schema.org/Organization" >
+        {{ range $partner := .reviewers }}
+        <p style="font-family:Arial, Helvetica, sans-serif;">  - {{ .name }} ({{ .organization }}) </p>
+        {{ end }}
+    </li>
+</ul>
