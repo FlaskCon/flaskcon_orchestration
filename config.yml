@@ -11,7 +11,7 @@ params:
   # Description: "Conference description"
   Date: "26 Jun 2020"
   Venue: "Online!"
-  Images: ["/website/img/flaskcon_logo.svg"]
+  Images: ["/img/flaskcon_logo.svg"]
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
@@ -60,9 +60,6 @@ params:
 
   # List of Organisers
   Partners:
-    - name: "Pallets"
-      logo: "/img/logos/pallets.png"
-      url: "https://palletsprojects.com/"
     - name: "PyMUG"
       logo: "/img/pymug_new.svg"
       url: "https://pymug.com"
@@ -93,7 +90,7 @@ params:
       logo: "/img/python_discord.jpg"
       url: "https://discord.gg/python"
     - name: "r/Flask"
-      logo: "/img/r_flask.jpg"
+      logo: "/img/flask.png"
       url: "https://www.reddit.com/r/flask/"
 
   coc:

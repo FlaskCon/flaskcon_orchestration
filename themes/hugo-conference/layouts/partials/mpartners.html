@@ -4,7 +4,7 @@
 {{ range $partner := .mpartners }}
   <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
     <a href="{{ .url }}" class="partner-logo partner-link" itemprop="url" target="_blank">
-      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo"  data-toggle="tooltip" title="{{ .name }}"  itemprop="image">
     </a>
   </li>
 {{ end }}
