@@ -52,7 +52,7 @@ params:
     - name: "Adam Englander "
       organization: "Werkzeug Maintainer"
     - name: "Grey Li"
-      organization: "Flask Maintainer, PyCon China"
+      organization: "Flask Maintainer"
     - name: "Julien Demoor"
       organization: "PyMUG"
     - name: "Miguel Grinberg"
