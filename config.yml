@@ -57,6 +57,10 @@ params:
       organization: "PyMUG"
     - name: "Miguel Grinberg"
       organization: "Flask Maintainer, PythonIreland"
+    - name: "Ali-Akber Saifee"
+      organization: "Flask-limiter"
+    - name: "Steven Loria"
+      organization: "Flask-marshmallow"
 
   # List of Organisers
   Partners:
