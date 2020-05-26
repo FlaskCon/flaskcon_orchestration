@@ -9,7 +9,7 @@ params:
   # Conference info
   Name: "FlaskCon 2020"
   # Description: "Conference description"
-  Date: "26 Jun 2020"
+  Date: "4 Jul 2020"
   Venue: "Online!"
   Images: ["/img/flaskcon_logo.svg"]
 
